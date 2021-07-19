@@ -100,7 +100,7 @@ li, a{
   padding: 0% 1%;
  transition: All ease-in-out .55s;
 }
-.social div i:hover, .nav li:hover, .comp img:hover, .logo:hover{
+.social div i:hover, .nav li:hover, .comp img:hover, .logo:hover, .letter:hover{
   transform: scale(1.3);
   transition: All ease-in-out .55s;
 }
