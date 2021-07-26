@@ -1,7 +1,7 @@
 *{
   font-family: 'Be Vietnam', sans-serif;
   color: #fff;
-  text-shadow: 2px 2px 7px #0c0c0c;
+  text-shadow: 2px 3px 5px #0a0a0a;
 }
 [class*="mobile-"]{
   display: none;
@@ -13,12 +13,26 @@ body,html{
   overflow-x: hidden;
   background-color: #18181c;
 }
+
 main{
-  padding: 0% 32px;
+ position: absolute;
+ top: 0;
+ color: #f1f1f1;
+ min-width: 100%;
+ min-height: 100%;
+}
+.dif{
+ background: rgba(0, 0, 0, 0.9);
 }
 li, a{
   text-decoration: none;
   list-style:none;
+}
+#myVideo {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 .logo{
   width: 50%;
@@ -57,7 +71,7 @@ li, a{
 }
 .body{
   text-align: center;
-  padding: 10% 0% 1% 0%;
+  padding: 5% 4% 1% 4%;
 }
 .text{
   font-weight: 600;
@@ -117,6 +131,7 @@ li, a{
   grid-template-rows: auto;
   position: relative;
   margin-bottom: 2%;
+  grid-row-gap:100px;
 }
 .comp img{
   width: 20%;
@@ -218,7 +233,6 @@ li, a{
     position: absolute;
     z-index: 2;
     width: 100%;
-    margin-left: -9%;
     margin-top: 20%;
     padding: 30px 0px 30px 0px;
     transition: All ease-in-out .55s;
@@ -242,6 +256,12 @@ li, a{
   .nav li:last-of-type{
     border: none;
   }
+  main{
+    height: 1041.43px;
+  }
+  .social{
+    margin-top: 70px;
+  }
   .inner-logo{
     width: 45%;
   }
@@ -258,4 +278,5 @@ li, a{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
     grid-row-gap: 40px;
+}
 }
