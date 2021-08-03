@@ -22,7 +22,7 @@ main{
  min-height: 100%;
 }
 .dif{
- background: rgba(0, 0, 0, 0.9);
+ background: rgba(0, 0, 0, 0.95);
 }
 li, a{
   text-decoration: none;
@@ -60,13 +60,13 @@ li, a{
   margin-top: 2%;
   width: 50%
 }
-.nav li{
+.nav a{
   display: inline-block;
   padding:5% 3%;
   font-weight: bold;
   transition: All ease-in-out .55s;
 }
-.nav li:last-of-type{
+.nav a:last-of-type{
   padding-right: 0px;
 }
 .body{
@@ -86,7 +86,7 @@ li, a{
   outline: none;
   color: #fff;
   background: #007bff;
-  padding: 1% 0.9%;
+  padding: 12.5px 11px;
   font-size: 1.5em;
   border-radius: 5px;
   border: none;
@@ -97,7 +97,7 @@ li, a{
   flex-direction: row;
   justify-content: center;
   margin-top: 40px;
-  margin-left: -2%;
+  margin-left: -0.1%;
 }
 .social div{
   display: inline-block;
@@ -248,13 +248,14 @@ li, a{
     transform: translateY(-300px);
     transition: All ease-in-out .50s;
   }
-  .nav li{
+  .nav a{
     display: block;
     text-align: center;
     border-bottom: 1px solid #989b9e;
   }
-  .nav li:last-of-type{
+  .nav a:last-of-type{
     border: none;
+    padding-bottom: 0px;
   }
   main{
     height: 1041.43px;
